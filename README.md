@@ -1,9 +1,9 @@
 # Esp32 IDF Get Started 
 
-This project will be the famous hello world for esp32 beginners
+This project will be the famous hello world for esp32 beginners. These steps was based on the [Oficial ESPRESSIF Documentation](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/get-started/linux-macos-setup.html)
 
 ## Table of Content
-- [Setup Linux Environment](#setup-linux-environment)
+- [Setup Ubuntu/Debian Environment](#setup-ubuntudebian-environment)
   - [Prerequisites](#step-1---prerequisites)
   - [Get ESP-IDF](#step-2---get-esp-idf)
   - [Install Tools](#step-3---install-tools)
@@ -13,7 +13,7 @@ This project will be the famous hello world for esp32 beginners
   - [Configure the project](#step-1---configure-the-project)
   - [Build And flash the project](#step-2---build-and-write-the-project)
 
-## Setup Linux Environment
+## Setup Ubuntu/Debian Environment
 
 ### Step 1 - Prerequisites
 
