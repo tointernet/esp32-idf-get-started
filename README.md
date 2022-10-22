@@ -83,6 +83,12 @@ If something went wrong probably you need to install the driver manually. To kno
 sudo usermod -a -G dialout $USER
 ```
 
+- Adding the permission to the usb port. Attention where, you must change the permission for the usb port that your device connect
+
+```
+chmod 0777 /dev/ttyUSB0
+```
+
 ## Hello World project
 
 Inside the esp-idf repository there are a lot of exemplos, we will copy the hello_world exemplo for some folder in our computer
@@ -119,4 +125,10 @@ You should change the -p argument to your own usb port
 
 ```
 idf.py -p /dev/ttyUSB0 flash
+```
+
+- To check if the example is running
+
+```
+idf.py -p /dev/ttyUSB0 monitor
 ```
