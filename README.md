@@ -83,7 +83,7 @@ If something went wrong probably you need to install the driver manually. To kno
 sudo usermod -a -G dialout $USER
 ```
 
-- Adding the permission to the usb port. Attention where, you must change the permission for the usb port that your device connect
+- Adding the permission to the usb port. Attention where, you must change the permission for the usb port that your device is connect
 
 ```
 chmod 0777 /dev/ttyUSB0
