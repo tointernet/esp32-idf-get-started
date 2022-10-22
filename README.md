@@ -9,6 +9,7 @@ This project will be the famous hello world for esp32 beginners. These steps was
   - [Install Tools](#step-3---install-tools)
   - [Configure Environment](#step-4---configure-environment)
   - [Configure Serial Port](#step-5---configure-serial-port)
+  - [Configure Debugger - JTAG](#step-6---configure-debugger-with-jtag-esp-prog)
 - [Hello World Project](#hello-world-project)
   - [Configure the project](#step-1---configure-the-project)
   - [Build And flash the project](#step-2---build-and-write-the-project)
@@ -87,6 +88,16 @@ sudo usermod -a -G dialout $USER
 
 ```
 chmod 0777 /dev/ttyUSB0
+```
+
+### Step 6 - Configure Debugger with JTAG ESP-PROG
+
+**This step is not required, only if you have the JTAG board.**
+
+OpenOCD its a debugging interface to help us to debug our applications
+
+```
+sudo apt install openocd
 ```
 
 ## Hello World project
